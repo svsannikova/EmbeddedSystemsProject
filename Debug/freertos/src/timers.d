@@ -1,7 +1,7 @@
 freertos/src/timers.o freertos/src/timers.d: ../freertos/src/timers.c \
- C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/FreeRTOS.h \
- C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/projdefs.h \
- C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/FreeRTOSConfig.h \
+ C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/FreeRTOS.h \
+ C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/projdefs.h \
+ C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/FreeRTOSConfig.h \
  C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\lpc_board_nxp_lpcxpresso_1549\inc/board.h \
  C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\lpc_chip_15xx\inc/chip.h \
  C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\lpc_chip_15xx\inc/lpc_types.h \
@@ -52,20 +52,20 @@ freertos/src/timers.o freertos/src/timers.d: ../freertos/src/timers.c \
  C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\lpc_chip_15xx\inc/i2cs_15xx.h \
  C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\lpc_board_nxp_lpcxpresso_1549\inc/board_api.h \
  C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\lpc_chip_15xx\inc/lpc_types.h \
- C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/portable.h \
- C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/portmacro.h \
- C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/mpu_wrappers.h \
- C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/task.h \
- C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/list.h \
- C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/queue.h \
- C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/timers.h \
- C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/task.h
+ C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/portable.h \
+ C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/portmacro.h \
+ C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/mpu_wrappers.h \
+ C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/task.h \
+ C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/list.h \
+ C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/queue.h \
+ C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/timers.h \
+ C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/task.h
 
-C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/FreeRTOS.h:
+C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/FreeRTOS.h:
 
-C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/projdefs.h:
+C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/projdefs.h:
 
-C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/FreeRTOSConfig.h:
+C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/FreeRTOSConfig.h:
 
 C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\lpc_board_nxp_lpcxpresso_1549\inc/board.h:
 
@@ -167,18 +167,18 @@ C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\lpc_board_nxp_lpcxpress
 
 C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\lpc_chip_15xx\inc/lpc_types.h:
 
-C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/portable.h:
+C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/portable.h:
 
-C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/portmacro.h:
+C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/portmacro.h:
 
-C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/mpu_wrappers.h:
+C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/mpu_wrappers.h:
 
-C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/task.h:
+C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/task.h:
 
-C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/list.h:
+C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/list.h:
 
-C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/queue.h:
+C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/queue.h:
 
-C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/timers.h:
+C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/timers.h:
 
-C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\EmbeddedSystemsProject\freertos\inc/task.h:
+C:\Users\Jaakko\Documents\GitHub\EmbeddedSystemsProject\freertos\inc/task.h:

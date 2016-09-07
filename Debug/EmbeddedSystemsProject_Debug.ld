@@ -5,7 +5,7 @@
  * Generated linker script file for LPC1549
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.23
- * LPCXpresso v8.2.0 [Build 647] [2016-07-18]  on 2.9.2016 10:11:42
+ * LPCXpresso v8.2.0 [Build 647] [2016-07-18]  on 7.9.2016 19:22:38
  */
 
 INCLUDE "EmbeddedSystemsProject_Debug_library.ld"
