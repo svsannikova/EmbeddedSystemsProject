@@ -45,7 +45,7 @@ all: EmbeddedSystemsProject.axf
 EmbeddedSystemsProject.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU C++ Linker'
-	arm-none-eabi-c++ -nostdlib -L"C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\lpc_board_nxp_lpcxpresso_1549\Debug" -L"C:\Users\Jaakko\Documents\LPCXpresso_8.2.0_647\workspace\lpc_chip_15xx\Debug" -Xlinker -Map="EmbeddedSystemsProject.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "EmbeddedSystemsProject_Debug.ld" -o "EmbeddedSystemsProject.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-c++ -nostdlib -L"C:\Users\Christian Epple\Documents\LPCXpresso_8.2.0_647\workspace\lpc_board_nxp_lpcxpresso_1549\Debug" -L"C:\Users\Christian Epple\Documents\LPCXpresso_8.2.0_647\workspace\lpc_chip_15xx\Debug" -Xlinker -Map="EmbeddedSystemsProject.map" -Xlinker --gc-sections -mcpu=cortex-m3 -mthumb -T "EmbeddedSystemsProject_Debug.ld" -o "EmbeddedSystemsProject.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

@@ -62,13 +62,14 @@ static void gCodeParser(void *pvParameters) {
 				// Print character to UART
 				clause[i] = character;
 				i++;
-				Board_UARTPutChar (character);
+				//Board_UARTPutChar (character);
 			}else{
 				i=0;
 
 				// M10
 				if (clause[0] == 77 && clause[1] == 49 && clause[2] == 48){
-					Board_UARTPutSTR("\r\nOK\r\n");
+					DEBUGOUT("OK");
+					vTaskDelay(configTICK_RATE_HZ);
 				}
 
 				// M4
@@ -144,6 +145,11 @@ int main(void) {
 
 	/* UART output thread, simply counts seconds */
 	xTaskCreate(gCodeParser, "gCodeParser",
+			configMINIMAL_STACK_SIZE, NULL, (tskIDLE_PRIORITY + 1UL),
+			(TaskHandle_t *) NULL);
+
+	/* UART output thread, simply counts seconds */
+	xTaskCreate(vUARTTask, "vUARTTask",
 			configMINIMAL_STACK_SIZE, NULL, (tskIDLE_PRIORITY + 1UL),
 			(TaskHandle_t *) NULL);
 
