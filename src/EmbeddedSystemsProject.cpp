@@ -6,12 +6,16 @@
  Copyright   : $(copyright)
  Description : main definition
 ===============================================================================
+<<<<<<< HEAD
  */
 
 #include "board.h"
 #include "FreeRTOS.h"
 #include "task.h"
 #include <string.h>
+=======
+*/
+>>>>>>> parent of 649c944... Basic stuff ver.2
 
 #if defined (__USE_LPCOPEN)
 #if defined(NO_BOARD_LIB)
@@ -24,6 +28,7 @@
 #include <cr_section_macros.h>
 
 // TODO: insert other include files here
+<<<<<<< HEAD
 
 static void gCodeParser(void *pvParameters) {
 	int character;
@@ -121,20 +126,26 @@ static void vUARTTask(void *pvParameters) {
 	}
 }
 
+=======
+// THIS LINE CHANGED
+// TODO: insert other definitions and declarations here
+>>>>>>> parent of 649c944... Basic stuff ver.2
 
 int main(void) {
 
 #if defined (__USE_LPCOPEN)
-	// Read clock settings and update SystemCoreClock variable
-	SystemCoreClockUpdate();
+    // Read clock settings and update SystemCoreClock variable
+    SystemCoreClockUpdate();
 #if !defined(NO_BOARD_LIB)
-	// Set up and initialize all required blocks and
-	// functions related to the board hardware
-	Board_Init();
-	// Set the LED to the state of "On"
+    // Set up and initialize all required blocks and
+    // functions related to the board hardware
+    Board_Init();
+    // Set the LED to the state of "On"
+    Board_LED_Set(0, true);
 #endif
 #endif
 
+<<<<<<< HEAD
 	Chip_IOCON_PinMuxSet(LPC_IOCON, 0, 17, IOCON_DIGMODE_EN);
 	Chip_GPIO_SetPinDIRInput(LPC_GPIO, 0, 17);
 
@@ -150,12 +161,15 @@ int main(void) {
 
 	/* Start the scheduler */
 	vTaskStartScheduler();
+=======
+    // TODO: insert code here
+>>>>>>> parent of 649c944... Basic stuff ver.2
 
-	// Force the counter to be placed into memory
-	volatile static int i = 0 ;
-	// Enter an infinite loop, just incrementing a counter
-	while(1) {
-		i++ ;
-	}
-	return 0 ;
+    // Force the counter to be placed into memory
+    volatile static int i = 0 ;
+    // Enter an infinite loop, just incrementing a counter
+    while(1) {
+        i++ ;
+    }
+    return 0 ;
 }

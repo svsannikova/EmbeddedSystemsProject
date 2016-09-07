@@ -5,7 +5,11 @@
  * Generated linker script file for LPC1549
  * Created from memory.ldt by FMCreateLinkMemory
  * Using Freemarker v2.3.23
+<<<<<<< HEAD
  * LPCXpresso v8.2.0 [Build 647] [2016-07-18]  on 7.9.2016 19:22:38
+=======
+ * LPCXpresso v8.2.0 [Build 647] [2016-07-18]  on 31.8.2016 21:58:34
+>>>>>>> parent of 649c944... Basic stuff ver.2
  */
 
 MEMORY
